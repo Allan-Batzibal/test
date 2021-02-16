@@ -1,7 +1,8 @@
 import React from "react"
 
 const app = ({ allBooks }) => {
-  return "dddddfdfd"
+  console.log(allBooks)
+  return "hola"
 }
 
 export default app
