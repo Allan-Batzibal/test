@@ -12,7 +12,9 @@ exports.createPages = ({ actions }) => {
         const { data } = result
         createPage({
           path: "/search",
-          component: path.resolve(`./src/templates/productos.js`),
+          component: path.resolve(
+            `./opt/build/repo/src/templates/productos.js`
+          ),
           context: {
             bookData: {
               allBooks: data,
